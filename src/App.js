@@ -1,9 +1,14 @@
 import logo from './logo.svg';
+import Header from "./Header";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Header
+          name={"aaaa"}
+      />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -15,11 +20,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React aaaaaaaaaaabbbb
         </a>
       </header>
+       <Header
+           name={"bbbbb"}
+       />
     </div>
-  );
+);
 }
 
 export default App;
